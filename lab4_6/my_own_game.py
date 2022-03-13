@@ -540,13 +540,8 @@ have a conversation?\nWrite name:')
                                     Location.characters_seeker[current_room.name].remove(Person.name_list[human_name])
                                     backpack[1].remove(weapon)
                                 else:
-                                    if Person.name_list[human_name] == kaposnyk:
-                                        print('Ohh, bad deal, youl loose 25 hit points\n\
-    But kinders heard their mums and return you an amulet')
-                                        energy -= 25
-                                    else:
-                                        print('Ohh, bad deal, youl loose 25 hit points')
-                                        energy -= 25
+                                    print('Ohh, bad deal, youl loose 25 hit points')
+                                    energy -= 25
                             else:
                                 Person.name_list[human_name].present = None               
     elif command == "eat":
