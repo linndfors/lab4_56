@@ -184,6 +184,7 @@ class Enemy:
         self.fight_with_item = fight_with_item
         if self.fight_with_item == self.weakness_item:
             Enemy.counter += 1
+            print(f'You fend {self.character} off with the {self.fight_with_item}')
             return True
         else:
             return
