@@ -7,7 +7,7 @@ It's simple game. You have a different locations, characters, items, which can h
 Besides, friend you can also meet enemies, so keep calm and try to find a right item to defeat the enemy.\
 Rules are pretty simple, read instruction.
 some useful information:\
-streets: Struyska, Kozelnytska, Krakivska, Franka\
+streets: Stryiska, Kozelnytska, Krakivska, Franka\
 
 enemies: moskal, valera, kaposnyk,angry_grany\
 
